@@ -1,4 +1,4 @@
-# Advent of Code 2015 (in Julia)
+# Advent of Code 2016 (in Julia)
 
 [Advent of Code](https://adventofcode.com) is an Advent calendar of small programming puzzles for a variety of skill sets and skill levels that can be solved in any programming language you like. People use them as a speed contest, interview prep, company training, university coursework, practice problems, or to challenge each other.
 
@@ -22,12 +22,13 @@ julia day<day>/day<day>.jl # runs the code for the specific day
 ## Version Info
 
 ```
-Julia Version 1.6.1
-Commit 6aaedecc44 (2021-04-23 05:59 UTC)
+Julia Version 1.8.0
+Commit 5544a0fab76 (2022-08-17 13:38 UTC)
 Platform Info:
-  OS: Linux (x86_64-pc-linux-gnu)
-  CPU: Intel(R) Core(TM) i5-6600 CPU @ 3.30GHz
+  OS: Linux (aarch64-linux-gnu)
+  CPU: 5 × unknown
   WORD_SIZE: 64
   LIBM: libopenlibm
-  LLVM: libLLVM-11.0.1 (ORCJIT, skylake)
+  LLVM: libLLVM-13.0.1 (ORCJIT, generic)
+  Threads: 1 on 5 virtual cores
 ```
