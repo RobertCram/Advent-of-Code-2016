@@ -10,6 +10,9 @@ struct Puzzle
     answer
 end
 
+import Pkg
+Pkg.activate(".", io = devnull)
+
 processinput(data) = data
 
 Puzzle(day, name, solve, answer) = Puzzle(day, name, "input.txt", solve, answer)
